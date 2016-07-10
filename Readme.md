@@ -11,6 +11,7 @@
 - `Screenshots` : 앱의 목업 스크린샷이 포함되어 있습니다.
 - `Resource-iOS` : iOS용 앱 리소스가 포함되어 있습니다.
 - `Resource-AppIcon` : 앱의 아이콘 리소스가 포함되어 있습니다.
+- `Storyboard` : 앱의 스토리보드가 포함되어 있습니다.
 
 ## App General Information
 ### 서비스 이름
@@ -29,52 +30,52 @@ __모든 리소스는 @2x와 @3x의 해상도로 분리되었습니다.__
 
 ### Resources
 - __TutorialPage__
-	- `title_tutorialone_logo` : `tutorial1`페이지의 앱 로고입니다.
-	- `btn_tutorialtwo_google` : `tutorial2`페이지에서 구글 지메일 선택 버튼입니다.
-	- `btn_tutorialtwo_outlook` : `tutorial2`페이지에서 아웃룩닷컴 이메일 선택 버튼입니다.
-	- `btn_tuturialtwo_yahoo` : `tutorial2`페이지에서 야후 이메일 선택 버튼입니다.
-	- `acc_tutorialthree_scrn` : `tutorial3`페이지에서 소개 스크린샷 이미지입니다.
-	- `acc_tutorialfour_scrn` : `tutorial4`페이지에서 소개 스크린샷 이미지입니다.
-	- `acc_tutorialfive_scrn` : `tutorial5`페이지에서 소개 스크린샷 이미지입니다.
-	- `acc_tutorialsix_scrn` : `tutorial6`페이지에서 소개 스크린샷 이미지입니다.
+  - `title_tutorialone_logo` : `tutorial1`페이지의 앱 로고입니다.
+  - `btn_tutorialtwo_google` : `tutorial2`페이지에서 구글 지메일 선택 버튼입니다.
+  - `btn_tutorialtwo_outlook` : `tutorial2`페이지에서 아웃룩닷컴 이메일 선택 버튼입니다.
+  - `btn_tuturialtwo_yahoo` : `tutorial2`페이지에서 야후 이메일 선택 버튼입니다.
+  - `acc_tutorialthree_scrn` : `tutorial3`페이지에서 소개 스크린샷 이미지입니다.
+  - `acc_tutorialfour_scrn` : `tutorial4`페이지에서 소개 스크린샷 이미지입니다.
+  - `acc_tutorialfive_scrn` : `tutorial5`페이지에서 소개 스크린샷 이미지입니다.
+  - `acc_tutorialsix_scrn` : `tutorial6`페이지에서 소개 스크린샷 이미지입니다.
 
 - __EmailList__
-	- `ic_mailbox_unreadspot` : 읽지않은 메일을 표시하는 아이콘입니다.
-	- `ic_mailbox_files` 첨부파일이 있는 메일을 표시하는 아이콘입니다.
+  - `ic_mailbox_unreadspot` : 읽지않은 메일을 표시하는 아이콘입니다.
+  - `ic_mailbox_files` 첨부파일이 있는 메일을 표시하는 아이콘입니다.
 
 - __Dock__
-	- ___Dock은 `~_on`과 `~_off`리소스가 있습니다.___
-	- `btn_dock_mailbox~` : 분류함 탭의 아이콘입니다.
-	- `btn_dock_home~` : 홈 탭의 아이콘입니다.
-	- `btn_dock_settings~` : 설정 탭의 아이콘입니다.
+  - ___Dock은 `~_on`과 `~_off`리소스가 있습니다.___
+  - `btn_dock_mailbox~` : 분류함 탭의 아이콘입니다.
+  - `btn_dock_home~` : 홈 탭의 아이콘입니다.
+  - `btn_dock_settings~` : 설정 탭의 아이콘입니다.
 
 - __Home__ (Main Mailbox)
-	- `ic_home_writemail` : 메일 작성 버튼의 아이콘입니다.
-	- __CleanMail__
-		- `ic_cleanmail_selected` : 메일 정리에서 선택된 메일 위에 표시되는 아이콘입니다.
+  - `ic_home_writemail` : 메일 작성 버튼의 아이콘입니다.
+  - __CleanMail__
+    - `ic_cleanmail_selected` : 메일 정리에서 선택된 메일 위에 표시되는 아이콘입니다.
 
 - __Mailbox__
-	- __MakeMailBox__ (No Contents)
-		- `ic_makebox_addphoto` : 새로운 메일박스를 생성할 때 사진 추가 아이콘입니다.
+  - __MakeMailBox__ (No Contents)
+    - `ic_makebox_addphoto` : 새로운 메일박스를 생성할 때 사진 추가 아이콘입니다.
 
 - __MailSebu__
-	- `btn_mailsebu_addedmailbox` : 이 사람을 태그에 추가한 채로 새로운 메일박스 생성하기 버튼입니다.
-	- ___Flag리소스는 `~_on`과 `~_off`리소스가 있습니다.___
-		- `btn_mailsebu_flag~` : 플래그 세우기 버튼입니다.
-		
+  - `btn_mailsebu_addedmailbox` : 이 사람을 태그에 추가한 채로 새로운 메일박스 생성하기 버튼입니다.
+  - ___Flag리소스는 `~_on`과 `~_off`리소스가 있습니다.___
+    - `btn_mailsebu_flag~` : 플래그 세우기 버튼입니다.
+
 - __Passsword__
-	- `btn_password_dial` : 패스워드 숫자 다이얼의 배경입니다.
-	- `btn_password_dial_pressed` : 패스워드 숫자 다이얼을 눌렀을때의 배경입니다.
-	- `ic_password_inputed` : 패스워드가 입력했을시의 표시 아이콘입니다.
-	- `ic_password_noninputed` : 패스워드가 입력되지 않았을시의 표시 아이콘입니다.
-	
+  - `btn_password_dial` : 패스워드 숫자 다이얼의 배경입니다.
+  - `btn_password_dial_pressed` : 패스워드 숫자 다이얼을 눌렀을때의 배경입니다.
+  - `ic_password_inputed` : 패스워드가 입력했을시의 표시 아이콘입니다.
+  - `ic_password_noninputed` : 패스워드가 입력되지 않았을시의 표시 아이콘입니다.
+
 - __Action Bar__
-	- `title_actionbar_applogo` : 액션 바에 있는 앱 로고입니다.
+  - `title_actionbar_applogo` : 액션 바에 있는 앱 로고입니다.
 
 - __AboutApp__
-	- `title_aboutapp_logo` : 앱 버전 정보 페이지의 앱 로고입니다.
-	- __Makers__
-		- `title_makers_remocon` : 만든이 페이지의 팀 로고입니다.
+  - `title_aboutapp_logo` : 앱 버전 정보 페이지의 앱 로고입니다.
+  - __Makers__
+    - `title_makers_remocon` : 만든이 페이지의 팀 로고입니다.
 
 
 
